@@ -1,0 +1,56 @@
+# Environment variables
+.env
+
+# Dependencies
+node_modules/
+vendor/
+
+# Build files
+dist/
+build/
+*.min.js
+*.min.css
+
+# Testing
+coverage/
+*.test.js
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Uploads
+backend/uploads/*
+!backend/uploads/.gitkeep
+
+# Database
+*.sql.backup
+*.db
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+*.cache
+
+# PHP
+composer.phar
+composer.lock
+
+# Ignore sensitive data
+config.local.php
+database.local.php
